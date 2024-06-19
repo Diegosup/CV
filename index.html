@@ -1,0 +1,450 @@
+<html>
+    <head> 
+        <title> Diego García Aldaco </title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div class="navmenu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </nav>     
+        </header>
+        <main>
+            <section id ="hero"><a name="Home"></a>
+                <h1> Diego Garcia Aldaco</h1>
+                <h2> Junior Developer</h2>
+                <h3>I am committed to my objectives, patient with results, organized to carry out work, responsible in deliveries, honest in my abilities and with the initiative to solve adversities that arise. Regarding software development, I perform better in back-end as opposed to front-end. My interests are video games, exercise, science fiction/thrillers and Legos</h3>
+            </section>
+
+            <section id = "experience" class="timeline">
+                <div class="timeline-row">
+                    <div class="timeline-column">
+                        <h2 class="title"> Education <span class="animate" style="--i:1;"></span></h2>
+
+                        <div class="timeline-box">
+
+                            <div class="timeline-content">
+                                <div class="content">
+                                    <div class="year"><i class="bx bxs-calendar"></i>2017 - 2020</div>
+                                    <h3>High School Degree</h3>
+                                    <p> In the Emiliano Zapata from BUAP</p>
+                                
+                                </div>
+                            </div>
+
+
+                            <div class="timeline-content">
+                                <div class="content">
+                                    <div class="year"><i class="bx bxs-calendar"></i>2020 - 2025</div>
+                                    <h3>Bachelor Degree</h3>
+                                    <p> From UDLAP university as computer systems engineer</p>  
+                                </div>
+                            </div>
+                            <span class="animate" style="--i:2;"></span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-column">
+                        <h2 class="title"> Experience <span class="animate" style="--i:4;"></span></h2>
+
+                        <div class="timeline-box">
+                            <div class="timeline-content">
+                                <div class="content">
+                                    <div class="year"><i class="bx bxs-calendar"></i>09/01/2023 - 05/05/2023</div>
+                                    <h3>HammerByte Games</h3>
+                                    <p>Internship with a videogame organization which taught me a Udemy videogame development course</p>
+                                
+                                </div>
+                            </div>
+                            <span class="animate" style="--i:5;"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            
+           
+
+            <div id="FullImageView">
+                <span id="CloseButton" onclick="CloseFullView()">&times;</span>
+                <img id="FullImage" />
+            </div>
+            
+           
+
+            <section id = "projects">
+                <h2> <a name="Projects"> Developed Projects</a> </h2>
+                <div class="projects-list">
+                    
+                    <div class="project-detail">
+                        <img src="./images/Nonogram.png" onclick="FullView(this.src)"/>
+                        <div class="card-content">
+                            <h3>Nonogram</h3>
+                            <label>Java</label>
+                            <label>CSS</label>
+                            <h5>Developer</h5>
+                            <p>School project based on JAVA using interactive components such as jlabel, jbutton and jMenu that resembles the game Nonogram</p>
+                            <a href="http:// google.es" class="btn">Read more</a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="project-detail">
+                        <img src="./images/NEARBASK.png" onclick="FullView(this.src)">
+                        <div class="card-content">
+                            <h3>Nearbask</h3>
+                            <label>Html</label>
+                            <label>Css</label>
+                            <label>Php</label>
+                            <label>JavaScript</label>
+                            <h5>Team leader</h5>
+                            <p>Advanced web application made by 4 members for the FEPRO 2022 contest where its main function is to help users organize their grocery list before going to a supermarket</p>
+                            <a href="https://www.youtube.com/watch?v=HWJfDxRZHYw&t=1s" class="btn">Demo del proyecto</a>
+                            <a href=" https://www.facebook.com/feprofcc/photos/pcb.5723571111019334/5723570917686020" class="btn">Reconocimiento</a>    
+                        </div>
+                    </div>
+
+                    
+                    <div class="project-detail">
+                        <img src="./images/DB.png" onclick="FullView(this.src)">
+                        <div class="card-content">
+                            <h3>Classroom management using a database</h3>   
+                            <label>Java</label>
+                            <label>MariaDB</label>
+                            <h5>Team leader</h5>
+                            <p>School project of a graphical interface developed in JAVA, which allows the consultation and reservation of classrooms within a database using MariaDB through a driver that allows the connection between both languages</p>
+                            <a href="http:// google.es" class="btn">Read more</a>    
+                        </div>
+                    </div>
+
+                    
+                    <div class="project-detail">
+                        <img src="./images/PacMan.png" onclick="FullView(this.src)">
+                        <div class="card-content">   
+                            <h3>Pacman</h3>
+                            <label>C#</label>
+                            <h5>Developer</h5>    
+                            <p>School project Video game developed in C#, using a timer to execute the player's movement and integrating a random movement mechanism for enemies</p>
+                            <a href="http:// google.es" class="btn">Read more</a>    
+                        </div>
+                    </div>
+
+                    <div class="project-detail">
+                        <img src="./images/AB.png" onclick="FullView(this.src)">
+                        <div class="card-content">
+                            <h3>Angry birds</h3>
+                            <label>C#</label>
+                            <h5>Team leader</h5>    
+                            <p>School project Video game developed in C#, which involves the implementation of physics on interactive objects in addition of using a particle system</p>
+                            <a href="http:// google.es" class="btn">Read more</a>    
+                        </div>
+                        </div>
+
+                    <div class="project-detail">
+                        <img src="./images/Megaman.png" onclick="FullView(this.src)">
+                        <div class="card-content">
+                            <h3>Megaman</h3>
+                            <label>C#</label> 
+                            <h5>Team leader</h5>  
+                            <p>School project Platform video game developed in C#, where more attractive elements are used such as the use of static/animated sprites, the use of a map and a camera that follows the character</p>
+                            <a href="http:// google.es" class="btn">Read more</a>    
+                        </div> 
+                        </div>
+
+                    <div class="project-detail">
+                        <img src="./images/UE Game.png" onclick="FullView(this.src)">
+                        <div class="card-content">
+                            <h3>UE 5.2 multiplayer game</h3>
+                            <label>UE 5.2</label>
+                            <label>C++</label>  
+                            <h5>Developer</h5>  
+                            <p>Game developed in Unreal Engine 5.2 and C++, is a third-person multiplayer shooter which has three game modes: free-for-all, team combat and capture the flag. The implementation was achieved based on a Udemy course that shows the bases for creating a game of this genre. Including the multiplayer feature lag compensation, among others</p>
+                            <a href="http:// google.es" class="btn">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="project-detail">
+                        <img src="./images/LSI.png" onclick="FullView(this.src)">
+                        <div class="card-content">
+                            <h3>LSI Indexation System</h3>
+                            <label>Java</label> 
+                            <h5>Team leader</h5>  
+                            <p>School project with a simple interface that can make querys and consult the content of each document which handles 10 documents in a folder, which based on a custom dictionary, it retrieves which documents have the best approach to that query by using a representation of both query and document as vectors and determining their similarity by using the euclidean distance  </p>
+                            <a href="http:// google.es" class="btn">Read more</a>
+                        </div>
+                    </div>
+                   
+
+                </div>
+            </section>
+
+           
+
+
+            <section id = "technologies" class="techs"><a name="Technologies"></a>
+                <div class="tech-row">
+                    <div class="tech-column">
+                        <h2>DEV STACK</h2>
+                        <div class="tech-box">
+                            <figure>
+                                <div class="icon"><img src="./images/Java.png"></div>
+                                <figcaption>Java</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/Py.png"></div>
+                                <figcaption>Python</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/C.png"></div>
+                                <figcaption>C#</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/C++.png"></div>
+                                <figcaption>C++</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/HTML.png"></div>
+                                <figcaption>Html</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/css.png"></div>
+                                <figcaption>CSS</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/mysql.png"></div>
+                                <figcaption>MySQL</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/LaTeX_logo.svg.png"></div>
+                                <figcaption>LaTeX</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/JS.png"></div>
+                                <figcaption>JavaScript</figcaption>
+                            </figure>
+                        </div> 
+                    </div>
+
+                    <div class="tech-column">
+                        <h2>TOOLS STACK</h2>
+                        <div class="tech-box">
+                            <figure>
+                                <div class="icon"><img src="./images/FIGMA.png"></div>
+                                <figcaption>Figma</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/git.png"></div>
+                                <figcaption>Git</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/github.png"></div>
+                                <figcaption>GitHub</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/Lucid chart.png"></div>
+                                <figcaption>Lucid chart</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/InteliJ.png"></div>
+                                <figcaption>InteliJ</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/UE.png"></div>
+                                <figcaption>Unreal Engine</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/Visual_Studio.png"></div>
+                                <figcaption>Visual studio</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/Vs code.png"></div>
+                                <figcaption>VS code</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/MariaDB.png"></div>
+                                <figcaption>Maria DB</figcaption>
+                            </figure>
+                            <figure>
+                                <div class="icon"><img src="./images/Jupyter.png"></div>
+                                <figcaption>Jupyter</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "contact"><a name="Contact"></a>
+            <div class="form">
+                <h2> Contact me </h2>
+                <form action="https://formsubmit.co/diego.garciaao@udlap.com.mx" method="POST">
+                    
+                        <label>Name</label>
+                        <input type="text" name="name" id="name">
+                    
+                        <label>E-mail</label>
+                        <input type="text" name="email" id="email">
+                   
+                        <label>Subject</label>
+                        <input type="text" name="subject" id="subject">
+                    
+                        <label>Comments</label>
+                        <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+
+                    <input class="btn" type="submit" value="Send">
+
+                </form>
+            </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="col1">
+                        <a href="#" class="brand">Diego Garcia Aldaco</a>
+                        <ul class="media-icons">
+                            <li>
+                                <a href="https://www.facebook.com/legog1">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/supubizarre/?hl=es">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/diegogarciaao/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Diegosup">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col2">
+                        <ul class="menu">
+                            <li>
+                                <h4>About</h4>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Costumers</a>
+                            </li>
+                            <li>
+                                <a href="#">Carrers</a>
+                            </li> 
+                        </ul>
+
+                        <ul class="menu">
+                            <li>
+                                <h4>Resources</h4>
+                            </li>
+                            <li>
+                                <a href="#">Docs</a>
+                            </li>
+                            <li>
+                                <a href="#">Block</a>
+                            </li>
+                            <li>
+                                <a href="#">eBooks</a>
+                            </li>
+                            <li>
+                                <a href="#">Webinars</a>
+                            </li>
+                        </ul>
+                        <ul class="menu">
+                            <li>
+                                <h4>Contact</h4>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                            <li>
+                                <a href="#">Sales</a>
+                            </li>
+                            <li>
+                                <a href="#">Advertise</a>
+                            </li>
+                            <li>
+                                <a href="#">Location</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col3">
+                        <h4>Additional info</h4>
+                        <p>
+                            I am 22 years old, from Mexico. Almost finishing my
+                            degree as computer systems engineer and looking for 
+                            a stable job, discover thriller movies and 
+                            learn new programming skills
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p>
+                            Web site made using HTML, CSS and deployed in GitHub Pages
+                            - Last update:
+                        </p>
+                        <ul class="service-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-amazon-pay"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-mastercard"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-apple-pay"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-visa"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+             
+        <script type="text/javascript">
+            function  FullView(ImgLink) {
+                document.getElementById("FullImage").src = ImgLink;
+                document.getElementById("FullImageView").style.display="block";
+            }
+            function CloseFullView() {
+                document.getElementById("FullImageView").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
