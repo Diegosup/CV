@@ -1,2 +1,2 @@
-#CV web page
-CV developed on HTML, CSS and JavaScript
+# CV web page
+Developed on HTML, CSS and JavaScript
