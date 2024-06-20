@@ -2,7 +2,7 @@
 const owner = 'Diegosup';  // Replace with the owner of the repository
 const repositoryName = 'CV';  // Replace with the name of the repository
 const branchName = 'main';  // Replace with the branch name
-const githubAccessToken = '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';  // Replace with your GitHub access token
+const githubAccessToken = '';  // Replace with your GitHub access token
 
 // Construct the API URL
 const apiUrl = `https://api.github.com/repos/${owner}/${repositoryName}/commits/${branchName}`;
@@ -11,7 +11,7 @@ const apiUrl = `https://api.github.com/repos/${owner}/${repositoryName}/commits/
 fetch(apiUrl, {
   method: 'GET',
   headers: {
-    'Authorization': `token ${githubAccessToken}`
+    'Authorization': `token ${githubAccessToken}`,
   }
 })
 .then(response => {
